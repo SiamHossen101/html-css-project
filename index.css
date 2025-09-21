@@ -1,0 +1,133 @@
+.nav img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.text {
+    text-align: center;
+    width: 450px;
+    margin-left: 29%;
+}
+
+.text h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    color: #484848;
+}
+.text p{
+    margin-top: auto;
+    color: #8A8A8A;
+}
+
+.button-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 6% 5%;
+}
+.button-icon button{
+    padding: 13px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    outline: none;
+    border: none;
+    color: #8A8A8A;
+    cursor: pointer;
+}
+.button-icon button:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #0000000F;
+    gap: 10px;
+    width: 1200px;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text h3{
+    color: #484848;
+    margin-bottom: 1px;
+}
+.card-img p{
+    color: #8A8A8A;
+    margin-top: auto;
+}
+.card-img h4{
+    color: #484848;
+}
+.cart-doller h2{
+    color: #484848;
+}
+
+.cart-doller h5{
+    color: red;
+}
+.cart-doller h4{
+color: #228B22;
+}
+.card-icon{
+    margin-top: 50px;
+}
+.card button{
+    text-align: center;
+    margin-top: 30px;
+    width: 100px;
+    justify-content: center;
+    padding: 12px;
+    margin-left: 110%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+    background-color: black;
+    color: #FFFFFF;
+}
+.card-img{
+    margin-top: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-right: 10%;
+    margin-top: 0px;
+}
+.card-img img{
+    border-radius: 10px;
+}
+.cart-doller{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+ 
+.footer-icon img{
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text p{
+    color: #484848;
+    margin-top: auto;
+}
+.footer-text h3{
+    color: #484848;
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
