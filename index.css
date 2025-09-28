@@ -45,9 +45,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #0000000F;
     gap: 10px;
-    width: 1200px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .card-text{
     display: flex;
@@ -82,25 +81,40 @@ color: #228B22;
     text-align: center;
     margin-top: 30px;
     width: 100px;
-    justify-content: center;
     padding: 12px;
-    margin-left: 110%;
-    height: 40px;
+    height: 40px; 
     border-radius: 10px;
     border: none;
     outline: none;
     margin-bottom: 40px;
     background-color: black;
-    color: #FFFFFF;
+
+} 
+.btn1 {
+    display: flex;
+    justify-content: center; 
 }
+.btn1 .btn {
+    width: 100px;   
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ 
 .card-img{
     margin-top: auto;
     background-color: #FFFFFF;
     padding: 20px;
-    margin-right: 10%;
-    margin-top: 0px;
-    justify-content: center;
-    align-items: center;
+    max-width: 1320px;
+    margin: auto;
+    gap: 30px;
+    
 }
 .card-img img{
     border-radius: 10px;
