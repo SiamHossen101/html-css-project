@@ -46,6 +46,8 @@
     background-color: #0000000F;
     gap: 10px;
     width: 1200px;
+    justify-content: center;
+    align-items: center;
 }
 .card-text{
     display: flex;
